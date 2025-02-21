@@ -1,0 +1,123 @@
+/* Tablets e dispositivos menores */
+@media screen and (max-width: 1024px) {
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .carousel {
+        height: 400px;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Tablets pequenos e dispositivos grandes */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-content {
+        justify-content: center;
+    }
+
+    header {
+        padding: 6rem 1rem 3rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .carousel {
+        height: 300px;
+    }
+
+    .carousel-controls button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}
+
+/* Dispositivos móveis */
+@media screen and (max-width: 480px) {
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .carousel {
+        height: 250px;
+    }
+
+    section {
+        margin: 2rem auto;
+        padding: 0 1rem;
+    }
+
+    .section-header {
+        margin-bottom: 2rem;
+    }
+
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .card {
+        margin-bottom: 1.5rem;
+    }
+
+    .card img {
+        height: 180px;
+    }
+
+    .social-link img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Para telas muito pequenas */
+@media screen and (max-width: 320px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .carousel {
+        height: 200px;
+    }
+
+    .card img {
+        height: 150px;
+    }
+}
+
+/* Para dispositivos de alta resolução */
+@media screen and (min-width: 1440px) {
+    .carousel {
+        height: 600px;
+    }
+
+    .card img {
+        height: 250px;
+    }
+}
