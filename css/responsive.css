@@ -70,7 +70,7 @@
 /* Dispositivos móveis */
 @media screen and (max-width: 480px) {
     .logo img {
-        height: 70px;
+        height: 60px;
     }
     
     .cards-grid {
