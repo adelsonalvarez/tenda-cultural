@@ -129,4 +129,4 @@ Para mais informações sobre o projeto:
 - Instagram: [@tendaculturailhadomel]
 
 ---
-⌨️ com ❤️ por [Seu Nome] 😊
+⌨️ com ❤️ por adelsonalvarez 😊
